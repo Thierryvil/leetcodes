@@ -1,6 +1,12 @@
 const Solution = require("./solution");
 const { assertEqual } = require('../util')
 
+const challenge = {
+    number: 238,
+    name: "Product of Array Except Self",
+    difficulty: "Medium",
+};
+
 function run() {
     const solution = new Solution();
 
@@ -28,4 +34,8 @@ function run() {
     });
 }
 
-run();
+if (require.main === module) {
+    run();
+}
+
+module.exports = { challenge, run };

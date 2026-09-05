@@ -1,6 +1,12 @@
 const Solution = require("./solution");
 const { assertEqual } = require('../util')
 
+const challenge = {
+    number: 53,
+    name: "Maximum Subarray",
+    difficulty: "Medium",
+};
+
 function run() {
     const solution = new Solution();
 
@@ -32,4 +38,8 @@ function run() {
     });
 }
 
-run();
+if (require.main === module) {
+    run();
+}
+
+module.exports = { challenge, run };

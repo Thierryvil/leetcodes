@@ -1,6 +1,12 @@
 const Solution = require("./solution");
 const { assertEqual } = require('../util')
 
+const challenge = {
+    number: 704,
+    name: "Binary Search",
+    difficulty: "Easy",
+};
+
 function run() {
     const solution = new Solution();
 
@@ -31,4 +37,8 @@ function run() {
     });
 }
 
-run();
+if (require.main === module) {
+    run();
+}
+
+module.exports = { challenge, run };

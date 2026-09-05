@@ -1,6 +1,12 @@
 const Solution = require("./solution");
 const { assertEqual, TreeNode } = require('../util')
 
+const challenge = {
+    number: 104,
+    name: "Maximum Depth of Binary Tree",
+    difficulty: "Easy",
+};
+
 function run() {
     const solution = new Solution();
 
@@ -40,4 +46,8 @@ function run() {
     });
 }
 
-run();
+if (require.main === module) {
+    run();
+}
+
+module.exports = { challenge, run };
