@@ -1,7 +1,7 @@
-class Soluction {
+class Solution {
     levelOrder(root) {
 
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

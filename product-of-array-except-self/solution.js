@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     productExceptSelf(nums) {
         const result = new Array(nums.length)
 
@@ -21,4 +21,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     maxProfit(prices) {
         let minPrice = Infinity
         let maxProfit = 0
@@ -15,4 +15,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

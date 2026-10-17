@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     search(nums, target) {
 
         let left = 0
@@ -23,4 +23,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

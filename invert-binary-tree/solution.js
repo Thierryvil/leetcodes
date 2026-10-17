@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     invertTree(root) {
         if (!root) {
             return root
@@ -16,4 +16,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

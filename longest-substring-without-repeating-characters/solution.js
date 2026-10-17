@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     lengthOfLongestSubstring(s) {
         let left = 0
         let maxLenght = 0
@@ -22,4 +22,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

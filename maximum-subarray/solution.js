@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     maxSubArray(nums) {
         let currentSum = nums[0]
         let maxSum = nums[0]
@@ -21,4 +21,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

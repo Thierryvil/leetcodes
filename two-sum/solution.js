@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     twoSum(nums, target) {
         const seen = new Map()
 
@@ -14,4 +14,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution

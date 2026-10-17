@@ -1,4 +1,4 @@
-class Soluction {
+class Solution {
     threeSum(nums) {
         nums.sort((a, b) => a - b)
 
@@ -40,4 +40,4 @@ class Soluction {
     }
 }
 
-module.exports = Soluction
+module.exports = Solution
