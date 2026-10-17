@@ -3,7 +3,7 @@ function assertEqual(actual, expected, caseNumber) {
 
     const normalize = (value) => {
         if (Array.isArray(value)) {
-            return value.map(item => item === 0 ? 0 : item);
+            return value.map(normalize);
         }
 
         return value === 0 ? 0 : value;

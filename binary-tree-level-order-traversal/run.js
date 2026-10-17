@@ -25,9 +25,9 @@ function run() {
             ),
             expected: [
                 [3],
-                [9, 20]
-                [15, 7]
-            ]
+                [9, 20],
+                [15, 7],
+            ],
         },
         {
             root: new TreeNode(
@@ -36,8 +36,8 @@ function run() {
             expected: [[1]]
         },
         {
-            root: new TreeNode(),
-            expected: new TreeNode()
+            root: null,
+            expected: [],
         },
         {
             root: new TreeNode(
@@ -54,9 +54,9 @@ function run() {
             ),
             expected: [
                 [10],
-                [5, 15]
-                [2, 7, 20]
-            ]
+                [5, 15],
+                [2, 7, 20],
+            ],
         },
     ];
 
